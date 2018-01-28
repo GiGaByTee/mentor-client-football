@@ -7,7 +7,6 @@
     "build": "tsc -p src/",
     "serve": "lite-server -c=bs-config.json",
     "start": "concurrently \"npm run build:watch\" \"npm run serve\""
-    // "postinstall": "ng build --aot -prod"
   },
   "keywords": [],
   "engines": {
